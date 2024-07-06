@@ -4,7 +4,7 @@ import {structureTool} from 'sanity/structure'
 import {apiVersion, dataset, projectId} from './sanity/env'
 import {unsplashImageAsset} from 'sanity-plugin-asset-source-unsplash'
 
-import {schemaTypes} from './schemas'
+import {schemaTypes} from './sanity/schemaTypes'
 
 export default defineConfig({
   name: 'default',
