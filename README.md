@@ -7,12 +7,12 @@ Note this is only the 'headless CMS' portion of the page builder. Whatever front
 
 ## How to Use
 
-clone the repo locally
-get a project id from [sanity.io's manage console](https://sanity.io/manage)
-add a `.env.local` file with at least
+- clone the repo locally
+- get a project id from [sanity.io's manage console](https://sanity.io/manage)
+- add a `.env.local` file with at least
 
 ```bash
-SANITY_STUDIO_PROJECT_ID="you project id"
+SANITY_STUDIO_PROJECT_ID="your project id"
 ```
 
 then from the project directory install the required packages with `npm install` and then you should be able to start the studio locally with `npx studio dev` and then hit the localhost url it provides to start adding your data.
